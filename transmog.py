@@ -33,7 +33,14 @@ layout = [
 ]
 
 # Create the window
-window = sg.Window("PHP Shell Modifier", layout)
+window = sg.Window("Transmog PHP Shell Magic Bytes Appender", layout,  keep_on_top=True,
+               auto_size_buttons=False,
+               grab_anywhere=False,
+               no_titlebar=False,
+               return_keyboard_events=False,
+               alpha_channel=0.9,
+               use_default_focus=False,
+               finalize=True)
 
 # Event loop
 while True:
